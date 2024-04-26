@@ -20,7 +20,7 @@ export function _onCreate() {
     app.use(plugin);
   });
   
-  app.model({ namespace: 'dataset', ...(require('D:/Desktop/experiment/cooka/src/models/dataset.js').default) });
+  app.model({ namespace: 'dataset', ...(require('D:/桌面/大学报告、论文、实验/HIT-ICES/platform/Front/src/models/dataset.js').default) });
   return app;
 }
 
